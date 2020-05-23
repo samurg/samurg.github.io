@@ -2,16 +2,489 @@
 <html lang="en">
 
 <head>
-    <title>A page written in english</title>
-    <meta content="text/html; charset=utf-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Daily</title>
+
 </head>
 
 <body>
 
-    <h1>My First Heading</h1>
 
-    <p>My first paragraph.</p>
+    <!--  ======================= Start Header Area ============================== -->
 
+    <header class="header_area" class="header" id="myHeader">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">portfolio</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#clients">clients</a>
+                        </li>-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--  ======================= End Header Area ============================== -->
+
+    <!--  ======================= Start Main Area ================================ -->
+    <main class="site-main">
+
+
+        <!--  ======================= Start Banner Area =======================  -->
+        <section class="site-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 site-title">
+                        <h3 class="title-text">Hey</h3>
+                        <h1 class="title-text text-uppercase">I am Samuel</h1>
+                        <h4 class="title-text text-uppercase">Junior FullStack Developer</h4>
+                        <div class="site-buttons">
+                            <div class="d-flex flex-row flex-wrap">
+                                <a href="http://www.linkedin.com/in/samuel-rodríguez-gonzález" target="_blank" rel="noopener noreferrer">
+                                    <button type="button" class="btn button primary-button mr-4 text-uppercase">hire me</button>
+                                </a>
+                                <a class="a-btn-secondary" href="docs/samuel_rodriguez_gonzalez_cv.pdf" target="_blank" download>
+                                    <button type="button" class="btn button secondary-button text-uppercase">Get cv</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 banner-image">
+                        <img src="./img/banner/banner-image.png" alt="banner-img" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  ======================= End Banner Area =======================  -->
+
+        <!--  ========================= About Area ==========================  -->
+        <a id="about"></a>
+        <section class="about-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="about-image">
+                            <img src="./img/about-us.png" alt="About us" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 about-title">
+                        <h2 class="text-uppercase pt-5">
+                            <span>Let me</span>
+                            <span>introduce</span>
+                            <span>myself</span>
+                        </h2>
+                        <div class="paragraph py-4 w-75">
+                            <p class="para">
+                                I consider myself a responsible, dynamic and creative person, with ease of adaptation, ability to work as a team and eager to learn new technologies. </p>
+                            <p class="para">
+                                I seek to put into practice what I have learned and become part of a work team that allows me to develop personally and professionally.
+                            </p>
+                        </div>
+                        <a href="docs/samuel_rodriguez_gonzalez_cv.pdf" target="_blank" download>
+                            <button type="button" class="btn button primary-button text-uppercase">Download cv</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ========================= End About Area ==========================  -->
+
+        <!--  ======================== Brand Area ==============================  -->
+        <section class="brand-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-12 col-md-12">
+                        <div class="first-row row">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/capgemini.png" alt="Brand-1 ">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/portfolio/caixabank.png" alt="Brand-2 ">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="first-row row">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/optimissa.png" alt="Brand-3 ">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/bbva.png" alt="Brand-4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="first-row row">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/gt.png" alt="Brand-5 ">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/portfolio/santander.png" alt="Brand-6">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12 col-md-12">
+                        <div class="experience-area">
+                            <div class="d-flex flex-row years-area">
+                                <h2 class="p-3 years">+2</h2>
+                                <h2>
+                                    <span>Years</span>
+                                    <span>Experience</span>
+                                    <span>Working</span>
+                                </h2>
+                            </div>
+                            <div class="d-flex flex-row flex-wrap call-area">
+                                <span><i class="fas fa-phone-alt fa-3x px-3"></i></span>
+                                <div class="call-now">
+                                    <a href="#" class="text-uppercase h4 font-roboto">Call Now</a>
+                                    <span class="font-roboto py-2">(+34)-691-906-300</span>
+                                </div>
+                            </div>
+                            <div class="bg-panel"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ======================== End Brand Area ==============================  -->
+
+        <!--  ====================== Start Services Area =============================  -->
+        <a id="services"></a>
+        <section class="services-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center services-title">
+                        <h1 class="text-uppercase title-text">Services Offers</h1>
+                        <p class="para">
+                        </p>
+                    </div>
+                </div>
+                <div class="container services-list">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="sevices-img text-center py-4">
+                                    <img src="./img/services/s1.png" alt="Services-1">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">Frontend developer</h5>
+                                    <p class="card-text text-secondary">
+                                        Angular 8, HTML5, CSS3, JavaScript.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="sevices-img text-center py-4">
+                                    <img src="./img/services/s2.png" alt="Services-2">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">Backend developer</h5>
+                                    <p class="card-text text-secondary">
+                                        Nodejs, Sprint Boot.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="sevices-img text-center py-4">
+                                    <img src="./img/services/s3.png" alt="Services-3">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">Agile Software developer</h5>
+                                    <p class="card-text text-secondary"> Jira, Trello
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="sevices-img text-center py-4">
+                                    <img src="./img/services/s4.png" alt="Services-4">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">Blockchain</h5>
+                                    <p class="card-text text-secondary">
+                                        Ethereum smart constracts developer
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ====================== End Services Area =============================  -->
+
+        <!--  ======================= Project Area =============================  -->
+        <a id="portfolio"></a>
+
+        <section class="project-area">
+            <div class="container">
+                <div class="project-title pb-5">
+                    <h1 class="text-uppercase title-h1">Recently Done Project</h1>
+                    <h1 class="text-uppercase title-h1">Quality Work</h1>
+                </div>
+
+                <div class="button-group">
+                    <button type="button" class="active" id="btn1" data-filter="*">All</button>
+                    <button type="button" data-filter=".popular">Popular</button>
+                    <button type="button" data-filter=".latest">Latest</button>
+                    <button type="button" data-filter=".now">Now</button>
+                    <button type="button" data-filter=".upcoming">Upcoming</button>
+                </div>
+
+                <div class="row grid">
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item now">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/santander.png">
+                                    <img src="./img/portfolio/santander.png" alt="portfolio-1" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">CashPooling</h4>
+                                <span class="text-secondary">Banco Santander, Now</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/bbva.png">
+                                    <img src="./img/portfolio/bbva.png" alt="portfolio-9" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Bloomberg stock reader(RT)</h4>
+                                <span class="text-secondary">BBVA, latest</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/caixabank.png" target="brank">
+                                    <img src="./img/portfolio/caixabank.png" alt="portfolio-9" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Compra Estrella</h4>
+                                <span class="text-secondary">Promocaixa</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/classquest.png" target="brank">
+                                    <img src="./img/portfolio/classquest.png" alt="portfolio-9" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Classquest</h4>
+                                <span class="text-secondary">The Learning Games</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/banner-image.png">
+                                    <img src="./img/portfolio/banner-image.png" alt="portfolio-9" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Daily project</h4>
+                                <span class="text-secondary">Own project</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--  ======================= End Project Area =============================  -->
+
+        <!--  ======================== About Me Area ==============================  -->
+        <!--<a id="clients"></a>
+
+        <section class="about-area">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <div class="about-title">
+                            <h1 class="text-uppercase title-h1">Recommendations</h1>
+                            <p class="para">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container carousel py-lg-5">
+                <div class="owl-carousel owl-theme">
+                    <div class="client row">
+                        <div class="col-lg-4 col-md-12 client-img">
+                            <img src="https://media-exp1.licdn.com/dms/image/C5603AQGcLhYiX9U86Q/profile-displayphoto-shrink_100_100/0?e=1595462400&v=beta&t=6WFqK7OF8ZsOA52fWmZNIwudsG4oRhD-Jzo9WIE0Nrc" alt="img1" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-12 about-client">
+                            <h4 class="text-uppercase">Pablo González González, PhD in Machine Learning</h4>
+                            <p class="para">Como profesor de Samuel durante su ciclo de Desarrollo de Aplicaciones Multiplataforma puedo decir que tiene un talento natural para la programación. Le gusta investigar y aprender por si mismo y muestra un gran interés en
+                                todas las nuevas tecnologías. Creo que es un perfil adecuado para cualquier empresa que busque alguien con ganas de aprender, motivado y con capacidad para aprender por si mismo. Su capacidad de trabajo en grupo y su buena
+                                relación con sus compañeros también es un punto importante a destacar.</p>
+                        </div>
+                    </div>
+                    <div class="client row">
+                        <div class="col-lg-4 col-md-12 client-img">
+                            <img src="https://media-exp1.licdn.com/dms/image/C5603AQFuWt3_4ZjbAw/profile-displayphoto-shrink_100_100/0?e=1595462400&v=beta&t=4iNRkTely4K-iEyNzGB1PgbadZzzdT3Tos7ggmnUkxc" alt="img2" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-12 about-client">
+                            <h4 class="text-uppercase">Jose Luis Arias, Profesor Enseñanza Secundaria</h4>
+                            <p class="para">He sido profesor de Acceso a Datos y tutor de proyecto Erasmus KA2 “Learning Games” y proyecto fin de ciclo “Funding platform based on cryptocurrency smart contracts” de Samuel. A lo largo de su formación en el centro ha demostrado
+                                su capacidad de aplicación de un amplio espectro de conocimientos en tecnologías de información. También ha demostrado su capacidad de aprender a aprender y de especialización dinámica multidisciplinar para resolución de
+                                problemas. En el desarrollo de los proyectos ha trabajado de forma autodidacta adquiriendo nuevas competencias que posteriormente a compartido con sus compañeros integrados perfectamente en equipos de trabajo. Es una excelente
+                                persona tanto dentro como fuera del entorno profesional en la que se puede confiar.</p>
+                        </div>
+                    </div>
+                    <div class="client row">
+                        <div class="col-lg-4 col-md-12 client-img">
+                            <img src="https://media-exp1.licdn.com/dms/image/C5603AQE78oKVy_EJPQ/profile-displayphoto-shrink_100_100/0?e=1595462400&v=beta&t=kwPqQeaFNICa1R4NMfgJlhzRaKwiIiXwIGodoq0U3VI" alt="img1" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-12 about-client">
+                            <h4 class="text-uppercase">Elvis Alonso Lueje, Cross-platform application developer</h4>
+                            <p class="para">Samuel is an amazing partner of work, if you are looking for someone who knows about programming, professional and constant in his work he is the right person. Always looking for the group and he has an intelligence and an
+                                impressive level of knowledge in computer sciences. Samuel participated as a support in the project The Learning Games, having his presence was very helpful for us and the project itself. Together we were working in Budapest
+                                with the same project and even got to share complete programming nights in order to get the project forward. In addition to the professional field, Samuel also stands out as a nice person and with whom you can have absolute
+                                confidence which comes off with his personality. I would not hesitate to re-count his skills on some other project if I would have the chance.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>-->
+
+        <!--  ======================== End About Me Area ==============================  -->
+
+        <!--  ========================== Subscribe me Area ============================  -->
+        <!--<a id="contact"></a>
+        <section class="subscribe-us-area">
+            <div class="container subscribe">
+                <div class="row">
+                    <div class="col-lg-12 text-center subscribe-title">
+                        <h4 class="text-uppercase">Get Update From anywhere</h4>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, consequuntur.
+                        </p>
+                    </div>
+                </div>
+                <div class="d-sm-flex justify-content-center">
+                    <form class="w-50">
+                        <div class="row d-flex flex-row flex-wrap">
+                            <div class="col input-textbox">
+                                <input type="text" id="txtemail" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="col">
+                                <div class="btn-submit">
+                                    <button type="submit" class="btn btn-success float-right">Subscribe</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>-->
+        <!--  ========================== End Subscribe me Area ============================  -->
+
+
+    </main>
+    <!--  ======================= End Main Area ================================ -->
+    <a id="contact"></a>
+    <footer class="footer-area">
+        <div class="container">
+            <div class="">
+                <div class="site-logo text-center py-4">
+                    <a href="#"><img src="./img/logo.png" alt="logo"></a>
+                </div>
+                <div class="social text-center">
+                    <h5 class="text-uppercase">Follow me</h5>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="http://www.linkedin.com/in/samuel-rodríguez-gonzález"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="copyrights text-center">
+                    <p class="para">
+                        Copyright ©2020 All rights reserved
+                        <a href="#"><span style="color: var(--primary-color);"></span></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
 </body>
 
 </html>
